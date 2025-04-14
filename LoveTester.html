@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            min-height: 100vh;
+            background-color: rgb(212, 119, 150);
+        }
+
+        header{
+            height: 50px;
+            box-shadow: 3px 0 5px white;
+        }
+
+        h1{
+            color: #fff;
+        }
+
+        main{
+            height: calc(100vh - 50px);
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .boy-section,.girl-section{
+            text-align: center;
+        }
+
+        input{
+            width: 270px;
+            height: 25px;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .chack-section{
+            text-align: center;
+        }
+
+        span{
+            font-size: 16rem;
+            display: block;
+        }
+
+        .chack-section button{
+            margin-top: 15px;
+            padding: 4px 25px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+      <h1>&#128150; LOVE TESTER &#128150;</h1>
+    </header>
+
+    <main>
+        <div class="boy-section">
+            <h2>Boy</h2>
+            <input type="text">
+        </div>
+       <div class="chack-section">
+        <span>&#128150;</span>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        <button>START</button>
+       </div>
+        <div class="girl-section">
+            <h2>Girl</h2>
+            <input type="text">
+        </div>
+    </main>
+</body>
+</html>
